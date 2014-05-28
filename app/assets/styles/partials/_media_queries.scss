@@ -1,4 +1,4 @@
-// Tablet -------------------------------------------------------------
+// Tablet ===================================================================
 
 @include media($tablet) {
 	h3 {
@@ -109,7 +109,7 @@
 
 #story .story-swiper-container {
 	display: block;
-	height: 700px;
+	height: 755px;
 }
 
 // Food --------------------------------
@@ -118,11 +118,15 @@
   
 }
 
+.food_caption_center {
+	margin-top: 25%;	
+}
+
 .swiper-slide {
-background-size: auto 800px;
-background-repeat: no-repeat;
-overflow: hidden;
-float: left;
+	background-size: auto 800px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	float: left;
 }
 
 // Food Slides
@@ -156,7 +160,7 @@ float: left;
 
 }
 
-// Screen ---------------------------------------------------------
+// Screen ===================================================================
 
 @include media($screen) {
 
@@ -181,6 +185,7 @@ nav {
 	background-image: url(/assets/images/all/batik_screen_bg.jpg);
 	background-size: cover;
 }
+// Mission -----------------------------------------------------
 
 #mission {
 	background-image: url("/assets/images/all/mission_bg.jpg");
@@ -243,6 +248,10 @@ nav {
 	height: 650px;
 }
 
+.food_caption_center {
+	margin-top: 25%;	
+}
+
 #food .swiper-container {
   height: 800px;
   margin-bottom: 80px;
@@ -259,9 +268,8 @@ nav {
 // Services ------------------------------------------------------------
 
 #services {
-	
-
 }
+
 .services_wrapper {
 	margin: 80px 0 100px 0;
 	@include outer-container;
@@ -276,6 +284,8 @@ nav {
 .restuarant {
 	@include span-columns(4);
 }
+
+// Contact -------------------------------------------------------------
 
 #contact {
 	background-image: url(/assets/images/all/batik_screen_bg.jpg);

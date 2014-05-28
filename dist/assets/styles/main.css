@@ -267,7 +267,7 @@ nav {
 
 #food .swiper-container {
   margin-top: 50px;
-  height: 450px;
+  height: 575px;
   width: 100%;
   overflow: hidden; }
 
@@ -284,7 +284,7 @@ nav {
   position: relative;
   left: 0;
   text-align: center;
-  bottom: 30px;
+  bottom: 48px;
   width: 100%; }
 
 .swiper-pagination-switch {
@@ -321,7 +321,7 @@ nav {
 
 .food_caption_center {
   width: 100%;
-  margin-top: 25%;
+  margin-top: 15%;
   padding: 10px;
   background-color: rgba(170, 140, 50, 0.6);
   text-align: center; }
@@ -475,7 +475,9 @@ nav {
       margin-left: 23.25%; }
   #story .story-swiper-container {
     display: block;
-    height: 700px; }
+    height: 755px; }
+  .food_caption_center {
+    margin-top: 25%; }
   .swiper-slide {
     background-size: auto 800px;
     background-repeat: no-repeat;
@@ -564,6 +566,8 @@ nav {
     height: 190px; }
   #food {
     height: 650px; }
+  .food_caption_center {
+    margin-top: 25%; }
   #food .swiper-container {
     height: 800px;
     margin-bottom: 80px; }
