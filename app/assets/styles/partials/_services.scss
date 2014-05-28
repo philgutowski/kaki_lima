@@ -1,0 +1,67 @@
+#services {
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	max-width: 99999px;
+	.services_title {
+		width: 100%;
+		background: $kaki_red;
+		padding-bottom: 5px;
+		h3	{
+			color: $white;
+			text-align: center;
+			margin: 0 auto;
+			padding: 5px 0 5px 0;
+		}
+		.brown_bar {
+			height: 10px;
+			background-color: $kaki_brown;
+		}
+	}
+}
+
+.services_wrapper {
+	margin: 15px auto 0 auto;
+	width: 80%;
+	max-width: 360px;
+	
+	h3 {
+		color: $kaki_red
+	}
+	p {
+		a {
+			color: $kaki_red;
+		}
+
+	}		
+}
+
+
+// Icons ------------------------------------------------------------
+
+.catering_icon {
+	background-image: url(/assets/images/all/services/catering.png);
+	background-size: contain;
+	margin: 25px auto;
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+
+.popup_icon {
+	background-image: url(/assets/images/all/services/popup.png);
+	background-size: contain;
+	margin: 25px auto;
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+
+.restuarant_icon {
+	background-image: url(/assets/images/all/services/restuarant.png);
+	background-size: contain;
+	margin: 25px auto;
+	width: 100px;
+	height: 100px;
+	display: block;
+}

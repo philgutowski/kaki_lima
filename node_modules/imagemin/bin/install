@@ -1,0 +1,49 @@
+#!/usr/bin/env node
+
+var child_process = require('child_process');
+var execFile = child_process.execFile;
+var exec = child_process.exec;
+var join = require('path').join;
+
+var root = join(__dirname, '../');
+var read = require('read');
+var colors = require('colors');
+
+if (process.platform === 'win32') {
+    read({
+        prompt: 'Would you like to add ImageMin to your right-click menu [Y/N]',
+        default: 'n',
+        timeout: 100000
+    }, function(err, value) {
+        if (/^y$/i.test(value)) {
+            var exe = execFile(__dirname + '/install.cmd', [])
+            exe.stdout.on('data', function(data) {
+                console.log('NOTE'.green + ': ' + data);
+            });
+            exe.stderr.on('data', function(data) {
+                console.log('ERROR'.red + ': ' + data);
+            });
+            exe.on('exit', function() {
+                how2Use();
+                console.log('All Done!'.bold.green);
+            })
+        } else {
+            how2Use();
+            console.log('Done!'.bold.green);
+        }
+    });
+} else {
+    how2Use();
+    console.log('Done!'.bold.green);
+}
+
+function how2Use() {
+    console.log('     _________________| '.bold.green + 'How To Use'.bold.red + ' |_________________'.bold.green);
+    console.log('    |   for shell:                                   |'.bold.green);
+    console.log('    |       imagemin file/path                       |'.bold.green);
+    console.log('    |       imagemin file/path -o new/file/path      |'.bold.green);
+    console.log('    |   for nodejs:                                  |'.bold.green);
+    console.log('    |       var imagemin = require("imagemin");      |'.bold.green);
+    console.log('    |       imagemin(filePath, destDir, callback);   |'.bold.green);
+    console.log('    |________________________________________________|'.bold.green);
+}

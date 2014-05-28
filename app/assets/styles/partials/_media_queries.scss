@@ -1,0 +1,282 @@
+// Tablet -------------------------------------------------------------
+
+@include media($tablet) {
+	h3 {
+		font-size: 1.85em;
+	}
+	h4 {
+		font-size: 1.6em;
+	}
+	p {
+		font-size: 1.5em;
+	}
+		
+
+// Nav ----------------------------
+	nav {
+		margin-top: 0px;
+		width: 100%;
+		height: 60px;
+		background-color: $white;
+		position: fixed;
+		left: 0;
+		ul {
+			width: 95%;
+			padding-top: 0;
+			margin: 5px auto;
+			text-align: center;
+
+			
+			li {
+				font-size: 1.5em;
+				display: inline;
+				padding: 5px;
+				a {
+					color: $kaki_red;
+				}
+				a:visited {
+						color: $kaki_red;
+				}
+			}
+		}
+		span {
+			display: none;
+		}
+	}
+
+// Home --------------------------------
+
+	.home {
+		height: 900px;
+		background-image: url(/assets/images/tablet/batik_tablet_bg.jpg);
+		background-size: 800px;
+		background-attachment: fixed;
+	}
+
+	#logo_panel {
+		margin-top: 220px;
+		.icon-menu {
+			display: none;
+		}
+		#logo_cart {
+			height: 165px;
+		}
+		#logo_text {
+			height: 120px;
+		}
+		#tagline {
+			font-size: 1.55em;
+		}	
+	}
+
+// Mission -----------------------------
+
+#mission {
+	background-image: url("/assets/images/tablet/mission_bg.png");
+	background-size: 800px;
+	background-attachment: fixed;
+	margin-top: 0px;
+	.mission_statement {
+		max-width: 700px;
+	}
+}
+
+// Story -------------------------------
+
+#story {
+	padding-top: 25px;
+	.swiper-wrapper {
+		
+	}
+	.story_content {
+		max-width: 700px;
+	}
+
+	.story_title .story_arrow_right {
+		margin-left: 23.25%;
+	}
+
+	// .story_pagination {
+	// 	margin-top: -100px;
+	// }
+
+	// .story_bottom_image {
+	// 	background-image: url("/assets/images/tablet/story_bottom_1.jpg");
+	// 	height: 200px;
+	// 	background-size: 800px;
+	// }
+}
+
+#story .story-swiper-container {
+	display: block;
+	height: 700px;
+}
+
+// Food --------------------------------
+
+#food .swiper-container {
+  height: 800px;
+}
+
+.swiper-slide {
+background-size: auto 800px;
+background-repeat: no-repeat;
+overflow: hidden;
+float: left;
+}
+
+// Food Slides
+#slide_1 {
+  background-image: url(/assets/images/all/food/food_1.jpg)
+}
+#slide_2 {
+  background-image: url(/assets/images/all/food/food_2.jpg)
+}
+#slide_3 {
+  background-image: url(/assets/images/all/food/food_3.jpg)
+}
+#slide_4 {
+  background-image: url(/assets/images/all/food/food_4.jpg)
+}
+#slide_5 {
+  background-image: url(/assets/images/all/food/food_5.jpg)
+}
+#slide_6 {
+  background-image: url(/assets/images/all/food/food_6.jpg)
+}
+#slide_7 {
+  background-image: url(/assets/images/all/food/food_7.jpg)
+}
+#slide_8 {
+  background-image: url(/assets/images/all/food/food_8.jpg)
+}
+#slide_9 {
+  background-image: url(/assets/images/all/food/food_9.jpg)
+}
+
+}
+
+// Screen ---------------------------------------------------------
+
+@include media($screen) {
+
+h3 {
+	font-size: 1.95em;
+}
+h4 {
+	font-size: 1.7em;
+}
+p {
+	font-size: 1.6em;
+}
+
+nav {
+	margin-top: 20px;
+	ul {
+		padding-top: 12px;
+	}
+}
+
+.home {
+	background-image: url(/assets/images/all/batik_screen_bg.jpg);
+	background-size: cover;
+}
+
+#mission {
+	background-image: url("/assets/images/all/mission_bg.jpg");
+	background-size: cover;
+	p {
+		line-height: 1.25em;
+	}
+}
+
+// Story -------------------------------------------------------
+
+#story .story-swiper-container {
+	display: none;
+}
+.story_pagination {
+	display: none;
+}
+
+.screen_story_container {
+	@include outer-container;
+	display: block;
+	width: 90%;
+	margin: 70px auto 40px auto;
+
+	.screen_story_title {
+		text-align: center;
+	}
+
+	.story_title {
+		.story_arrow_left {
+			display: none;
+		}
+		.story_title_right {
+			display: none;
+		}
+	}
+	.retno_story {
+		@include span-columns(6);
+		margin: 0;
+	}
+	.peter_story {
+		@include span-columns(6);
+		margin: 0;
+	}
+}
+
+.story_circle_retno {
+	width: 190px;
+	height: 190px;
+}
+.story_circle_peter {
+	width: 190px;
+	height: 190px;
+}
+
+
+// Food ---------------------------------------------------------------
+
+#food .swiper-container {
+  height: 800px;
+  margin-bottom: 80px;
+}
+
+.pagination {
+	bottom: 150px;
+}
+
+.swiper-slide {
+	background-size: cover;
+}
+
+// Services ------------------------------------------------------------
+
+#services {
+	
+
+}
+.services_wrapper {
+	margin: 80px 0 100px 0;
+	@include outer-container;
+}
+
+.catering {
+	@include span-columns(4);
+}
+.popup {
+	@include span-columns(4);
+}
+.restuarant {
+	@include span-columns(4);
+}
+
+#contact {
+	background-image: url(/assets/images/all/batik_screen_bg.jpg);
+	background-size: cover;
+
+}
+
+}

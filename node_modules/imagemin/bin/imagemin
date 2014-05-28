@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+var fs = require('fs');
+var path = require('path');
+var imagemin = require('../index.js');
+var optimist = require('optimist')
+    .alias({
+        'o': 'output'
+    });
+var opts = optimist.argv;
+// console.log(process.env);
+var files = opts._;
+//特殊处理
+//文件输出情况
+if (files.length === 1 && fs.existsSync(files[0]) && fs.statSync(files[0]).isFile() && opts.output && fs.existsSync(opts.output)) {
+    var distFile = files[0],
+        destFile = opts.output,
+        distExt = path.extname(distFile).toLowerCase(),
+        destExt = path.extname(destFile).toLowerCase();
+    if (destExt !== distExt) {
+        destFile = destFile + distExt;
+    }
+    imagemin(distFile, destFile);
+    return;
+}
+
+files.forEach(function(v) {
+    imagemin(v, opts.o);
+});

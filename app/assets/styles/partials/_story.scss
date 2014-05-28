@@ -1,0 +1,112 @@
+
+.screen_story_container, .screen_story_title {
+	display: none;
+}
+
+#story .story-swiper-container {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+	padding-top: 50px;
+	height: 700px;
+	width: 100%;
+	z-index: 0;
+	background-color: $white;
+	overflow: hidden;
+}
+
+.story_title .story_arrow_left {
+		height: 50px;
+		width: 50px;
+		background-image: url(/assets/images/all/left.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 1;
+		position: absolute;
+		margin: 80px 0 0 0;
+
+}
+.story_title .story_arrow_right {
+		height: 50px;
+		width: 50px;
+		background-image: url(/assets/images/all/right.svg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		z-index: 1;
+		position: absolute;
+		margin: 82px 0 0 22%;
+}
+
+.story_title {
+	margin: 0 auto 30px auto;
+	text-align: center;
+}
+
+.story_circle_retno {
+		background-image: url(/assets/images/all/retno_headshot.jpg);
+		width: 150px;
+		height: 150px;
+		background-size: contain;
+		border-radius: 50%;
+		margin: 0 auto;
+}
+.story_circle_peter {
+		background-image: url(/assets/images/all/peter_headshot.jpg);
+		height: 150px;
+		width: 150px;
+		background-size: cover;
+		border-radius: 50%;
+		margin: 0 auto;
+}
+
+.story_content {
+	text-align: center;
+	h3 {
+		color: $kaki_red;
+		position: inline;
+		margin-left: 0px;
+		padding: 5px 0;
+	}
+	width: 85%;
+	max-width: 360px;	
+	margin: 20px auto 0 auto;
+}
+
+.story_pagination {
+  position: relative;
+  left: 0;
+  text-align: center;
+  bottom:30px;
+  width: 100%;
+}
+
+// .story_bottom_image_peter {
+	
+// 	margin-top: 40px;
+// 	background-image: url(/assets/images/mobile/story_bottom_1.jpg);
+// 	background-repeat: no-repeat;
+// 	width: 100%;
+// 	height: 150px;
+// 	background-size: 400px;
+// 	overflow: hidden;
+// 	position: absolute;
+// }
+
+// .story_bottom_image_retno {
+	
+// 	margin-top: 19px;
+// 	background-image: url(/assets/images/mobile/story_bottom_1.jpg);
+// 	background-repeat: no-repeat;
+// 	width: 100%;
+// 	height: 150px;
+// 	background-size: 400px;
+// 	overflow: hidden;
+// 	position: absolute;
+// }
+
+.pagination_story {
+  position: relative;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}

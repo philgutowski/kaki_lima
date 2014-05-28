@@ -1,0 +1,25 @@
+#mission {
+	position: relative;
+	background-image: url("/assets/images/mobile/mission_bg.jpg");
+	height: 900px;
+	width: 100%;
+	background-size: 400px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	z-index: -1;
+	margin-top: -125px;
+}
+
+.mission_statement {
+	width: 80%;
+	max-width: 360px;
+	margin: 225px auto 0 auto;
+	padding: 15px;
+	text-align: center;
+	color: $white;
+	background-color: $black_trans;
+	h3 {
+		padding: 5px 0 15px 0;
+	}
+}
+

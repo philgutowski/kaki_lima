@@ -1,0 +1,40 @@
+#contact {
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 640px;
+	margin-top: 50px;
+	background-image: url(/assets/images/mobile/batik_mobile_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+	background-size: cover;
+}
+
+#contact_panel {
+	left: 0%;
+	color: $white;
+	width: 100%;
+	height: 315px;
+	background-color: $kaki_red_trans;
+	margin: 200px auto;
+	p, a {
+		text-align: center;
+		font-size: 1.15em;
+		letter-spacing: .05em;
+		margin-bottom: 15px;
+	}
+	h2 {
+		margin: 10px;
+	}
+	span {
+		font-size: 2em;
+		margin: 5px;
+	}
+}
+
+#logo_cart {
+	height: 90px;
+	margin-top: 25px;
+}
+

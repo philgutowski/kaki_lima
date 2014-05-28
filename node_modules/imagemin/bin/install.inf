@@ -1,0 +1,23 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=ksky521@gmail.com, 2013
+
+[DefaultInstall]
+AddReg=Install_AddReg
+
+[DefaultUnInstall]
+DelReg=Uninstall_DelReg
+
+[Uninstall_DelReg]
+hkcr,"Folder\Shell\ImageMin\command"
+hkcr,"Folder\Shell\ImageMin"
+
+hkcr,"*\Shell\ImageMin\command"
+hkcr,"*\Shell\ImageMin"
+
+[Install_AddReg]
+hkcr,"Folder\Shell\ImageMin",,,"ImageMin Image-Compressor"
+hkcr,"Folder\Shell\ImageMin\command",,,"""%01%\imagemin.cmd"" ""%%1""
+
+hkcr,"*\Shell\ImageMin",,,"ImageMin Image-Compressor"
+hkcr,"*\Shell\ImageMin\command",,,"""%01%\imagemin.cmd"" ""%%1"""

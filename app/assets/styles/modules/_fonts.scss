@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+$letter_space: .05em;
+
+
+
+* {
+	font-family: 'Rokkitt', serif;
+	letter-spacing: .035em;
+	line-height: 1.125em;
+}
+
+p {
+	font-size: 1.2em;
+
+}
+
+h3 {
+	font-size: 1.45em;
+	margin: 5px;
+
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h4 {
+	margin: 5px 0;
+}
+
+a {
+	text-decoration: none;
+	color: $white;
+	
+}
+
+a:hover {
+		text-decoration: underline;
+	}
