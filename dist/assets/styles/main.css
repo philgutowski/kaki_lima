@@ -99,7 +99,7 @@ a:hover {
   background-image: url(/assets/images/mobile/batik_mobile_bg.jpg);
   height: 700px;
   width: 100%;
-  background-size: 400px;
+  background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
   background-color: transparent;
@@ -177,7 +177,7 @@ nav {
   background-image: url("/assets/images/mobile/mission_bg.jpg");
   height: 900px;
   width: 100%;
-  background-size: 400px;
+  background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: -1;
@@ -278,24 +278,11 @@ nav {
   width: 100%;
   overflow: auto; }
 
-.arrows {
-  position: relative;
-  top: 330px;
-  width: 17px;
-  height: 30px;
-  z-index: 9999; }
-  .arrows .arrow-left {
-    background: url(/assets/images/all/arrows.png) no-repeat left top;
-    display: block; }
-  .arrows .arrow-right {
-    background: url(/assets/images/all/arrows.png) no-repeat right top;
-    display: block; }
-
 .swiper-wrapper {
   overflow: hidden; }
 
 .swiper-slide {
-  background-size: auto 800px;
+  background-size: cover;
   background-repeat: no-repeat;
   float: left;
   overflow: hidden; }
@@ -437,7 +424,7 @@ nav {
   height: 90px;
   margin-top: 25px; }
 
-@media screen and (min-width: 400px)  {
+@media screen and (min-width: 650px)  {
   h3 {
     font-size: 1.85em; }
   h4 {
@@ -523,7 +510,7 @@ nav {
   #slide_9 {
     background-image: url(/assets/images/tablet/food/food_9.jpg); } }
 
-@media screen and (min-width: 800px)  {
+@media screen and (min-width: 900px)  {
   h3 {
     font-size: 1.95em; }
   h4 {

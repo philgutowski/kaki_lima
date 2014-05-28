@@ -5,28 +5,28 @@
   overflow: auto;
 }
 
-.arrows {
-  position: relative;
-  top: 330px;
-  width: 17px;
-  height: 30px;
-  z-index: 9999;
-  .arrow-left {
-    background: url(/assets/images/all/arrows.png) no-repeat left top;
-    display: block;
-  }
-  .arrow-right {
-    background: url(/assets/images/all/arrows.png) no-repeat right top;
-    display: block;
-  }
-}
+// .arrows {
+//   position: relative;
+//   top: 330px;
+//   width: 17px;
+//   height: 30px;
+//   z-index: 9999;
+//   .arrow-left {
+//     background: url(/assets/images/all/arrows.png) no-repeat left top;
+//     display: block;
+//   }
+//   .arrow-right {
+//     background: url(/assets/images/all/arrows.png) no-repeat right top;
+//     display: block;
+//   }
+// }
 
 .swiper-wrapper {
   overflow: hidden;
 }
 
 .swiper-slide {
-background-size: auto 800px;
+background-size: cover;
 background-repeat: no-repeat;
 float: left;
 overflow: hidden;
