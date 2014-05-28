@@ -200,9 +200,8 @@ nav {
 #story .story-swiper-container {
   display: block;
   position: relative;
-  margin-bottom: 30px;
-  padding-top: 50px;
-  height: auto;
+  padding-top: 15%;
+  height: 745px;
   width: 100%;
   z-index: 0;
   background-color: #fff;
@@ -264,12 +263,6 @@ nav {
   left: 0;
   text-align: center;
   bottom: 30px;
-  width: 100%; }
-
-.pagination_story {
-  position: relative;
-  left: 0;
-  text-align: center;
   width: 100%; }
 
 #food .swiper-container {

@@ -6,9 +6,8 @@
 #story .story-swiper-container {
 	display: block;
 	position: relative;
-	margin-bottom: 30px;
-	padding-top: 50px;
-	height: auto;
+	padding-top: 15%;
+	height: 745px;
 	width: 100%;
 	z-index: 0;
 	background-color: $white;
@@ -77,36 +76,5 @@
   left: 0;
   text-align: center;
   bottom:30px;
-  width: 100%;
-}
-
-// .story_bottom_image_peter {
-	
-// 	margin-top: 40px;
-// 	background-image: url(/assets/images/mobile/story_bottom_1.jpg);
-// 	background-repeat: no-repeat;
-// 	width: 100%;
-// 	height: 150px;
-// 	background-size: 400px;
-// 	overflow: hidden;
-// 	position: absolute;
-// }
-
-// .story_bottom_image_retno {
-	
-// 	margin-top: 19px;
-// 	background-image: url(/assets/images/mobile/story_bottom_1.jpg);
-// 	background-repeat: no-repeat;
-// 	width: 100%;
-// 	height: 150px;
-// 	background-size: 400px;
-// 	overflow: hidden;
-// 	position: absolute;
-// }
-
-.pagination_story {
-  position: relative;
-  left: 0;
-  text-align: center;
   width: 100%;
 }
