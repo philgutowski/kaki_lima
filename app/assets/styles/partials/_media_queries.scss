@@ -49,7 +49,7 @@
 	.home {
 		height: 900px;
 		background-image: url(/assets/images/tablet/batik_tablet_bg.jpg);
-		background-size: 800px;
+		background-size: cover;
 		background-attachment: fixed;
 	}
 
@@ -73,7 +73,7 @@
 
 #mission {
 	background-image: url("/assets/images/tablet/mission_bg.png");
-	background-size: 800px;
+	background-size: cover;
 	background-attachment: fixed;
 	margin-top: 0px;
 	.mission_statement {
@@ -115,7 +115,7 @@
 // Food --------------------------------
 
 #food .swiper-container {
-  height: 800px;
+  
 }
 
 .swiper-slide {
@@ -240,7 +240,7 @@ nav {
 // Food ---------------------------------------------------------------
 
 #food {
-	
+	height: 650px;
 }
 
 #food .swiper-container {

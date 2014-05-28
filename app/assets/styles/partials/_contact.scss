@@ -1,14 +1,13 @@
 #contact {
 	text-align: center;
-	display: block;
-	width: 100%;
-	height: 640px;
-	margin-top: 50px;
 	background-image: url(/assets/images/mobile/batik_mobile_bg.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	overflow: hidden;
+	height: 700px;
+	width: 100%;
 	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-color: transparent;
+	margin-top: 50px;
 }
 
 #contact_panel {
