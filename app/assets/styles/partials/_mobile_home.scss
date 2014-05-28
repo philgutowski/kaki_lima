@@ -48,7 +48,7 @@
 }
 
 nav.exposed {
-	margin-top: 40px;
+	margin-top: 30px;
 	text-align: center;
 	left: 0;
 	background-color: $kaki_red;
@@ -63,9 +63,9 @@ nav {
 	color: $white;
 	top: 0px;
 	width: 100%;
-	height: 415px;
+	height: 390px;
 	background-color: $kaki_red_trans;
-	margin: 40px auto;
+	margin: 30px auto;
 	letter-spacing: $letter_space;
 	padding-left: 30px;
 	z-index: 10;
@@ -79,7 +79,7 @@ nav {
 	}
 	
 	ul {
-		padding-top: 40px;
+		padding-top: 30px;
 		li {
 			margin-bottom: 38px;
 			font-size: 2em;
@@ -87,9 +87,9 @@ nav {
 				color: $white;
 				text-decoration: none;
 			}
-			a:visited {
-				color: $visited;
-			}
+			// a:visited {
+			// 	color: $visited;
+			// }
 		}
 	}
 }
