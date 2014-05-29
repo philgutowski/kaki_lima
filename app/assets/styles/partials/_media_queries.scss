@@ -109,23 +109,23 @@
 
 #story .story-swiper-container {
 	display: block;
-	height: 755px;
+	height: 815px;
+	margin-bottom: 0px;
 }
 
 // Food --------------------------------
 
 #food .swiper-container {
-	max-width: 1000px;
-	margin: 0 auto 0 auto;
-  
+	max-width: 1200px;
+	margin: 5% auto 0 auto;
 }
 
 .food_caption_center {
-	margin-top: 15%;	
+	margin-top: 5%;	
 }
 
 .swiper-slide {
-	background-size: auto 800px;
+	background-size: contain;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	float: left;

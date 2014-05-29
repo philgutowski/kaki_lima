@@ -419,7 +419,7 @@ nav {
   height: 90px;
   margin-top: 25px; }
 
-@media screen and (min-width: 650px)  {
+@media screen and (min-width: 590px)  {
   h3 {
     font-size: 1.85em; }
   h4 {
@@ -478,14 +478,15 @@ nav {
       margin-left: 23.25%; }
   #story .story-swiper-container {
     display: block;
-    height: 755px; }
+    height: 815px;
+    margin-bottom: 0px; }
   #food .swiper-container {
-    max-width: 1000px;
-    margin: 0 auto 0 auto; }
+    max-width: 1200px;
+    margin: 5% auto 0 auto; }
   .food_caption_center {
-    margin-top: 15%; }
+    margin-top: 5%; }
   .swiper-slide {
-    background-size: auto 800px;
+    background-size: contain;
     background-repeat: no-repeat;
     overflow: hidden;
     float: left; }
@@ -502,7 +503,7 @@ nav {
   #slide_6 {
     background-image: url(/assets/images/tablet/food/food_6.jpg); } }
 
-@media screen and (min-width: 850px)  {
+@media screen and (min-width: 800px)  {
   h3 {
     font-size: 1.95em; }
   h4 {
