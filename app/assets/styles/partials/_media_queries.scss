@@ -54,7 +54,7 @@
 	}
 
 	#logo_panel {
-		margin-top: 220px;
+		margin-top: 300px;
 		.icon-menu {
 			display: none;
 		}
@@ -115,6 +115,8 @@
 // Food --------------------------------
 
 #food .swiper-container {
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
   
 }
 
@@ -131,31 +133,22 @@
 
 // Food Slides
 #slide_1 {
-  background-image: url(/assets/images/tablet/food/food_1.jpg)
+  background-image: url(/assets/images/tablet/food/food_1.jpg);
 }
 #slide_2 {
-  background-image: url(/assets/images/tablet/food/food_2.jpg)
+  background-image: url(/assets/images/tablet/food/food_2.jpg);
 }
 #slide_3 {
-  background-image: url(/assets/images/tablet/food/food_3.jpg)
+  background-image: url(/assets/images/tablet/food/food_3.jpg);
 }
 #slide_4 {
-  background-image: url(/assets/images/tablet/food/food_4.jpg)
+  background-image: url(/assets/images/tablet/food/food_4.jpg);
 }
 #slide_5 {
-  background-image: url(/assets/images/tablet/food/food_5.jpg)
+  background-image: url(/assets/images/tablet/food/food_5.jpg);
 }
 #slide_6 {
-  background-image: url(/assets/images/tablet/food/food_6.jpg)
-}
-#slide_7 {
-  background-image: url(/assets/images/tablet/food/food_7.jpg)
-}
-#slide_8 {
-  background-image: url(/assets/images/tablet/food/food_8.jpg)
-}
-#slide_9 {
-  background-image: url(/assets/images/tablet/food/food_9.jpg)
+  background-image: url(/assets/images/tablet/food/food_6.jpg);
 }
 
 }
@@ -184,6 +177,9 @@ nav {
 .home {
 	background-image: url(/assets/images/all/batik_screen_bg.jpg);
 	background-size: cover;
+	#logo_panel {
+		margin-top: 300px;
+	}
 }
 // Mission -----------------------------------------------------
 
@@ -243,7 +239,11 @@ nav {
 // Food ---------------------------------------------------------------
 
 #food {
-	height: 650px;
+	height: 800px;
+	width: 100%;
+	background-image: url(/assets/images/all/batik_screen_bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .food_caption_center {
@@ -263,10 +263,29 @@ nav {
 	background-size: cover;
 }
 
+#slide_1 {
+  background-image: url(/assets/images/all/food/food_1.jpg);
+}
+#slide_2 {
+  background-image: url(/assets/images/all/food/food_2.jpg);
+}
+#slide_3 {
+  background-image: url(/assets/images/all/food/food_3.jpg);
+}
+#slide_4 {
+  background-image: url(/assets/images/all/food/food_4.jpg);
+}
+#slide_5 {
+  background-image: url(/assets/images/all/food/food_5.jpg);
+}
+#slide_6 {
+  background-image: url(/assets/images/all/food/food_6.jpg);
+}
+
 // Services ------------------------------------------------------------
 
 #services {
-	margin-top: 125px;
+	margin-top: 30px;
 	padding-top: 100px;
 }
 
@@ -290,6 +309,7 @@ nav {
 #contact {
 	background-image: url(/assets/images/all/batik_screen_bg.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 
 }
 
