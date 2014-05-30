@@ -19,7 +19,7 @@
   
  var mySwiper = new Swiper('.swiper-container', {
     pagination: '.pagination',
-    loop: true,
+    loop: false,
     grabCursor: true,
     paginationClickable: true
   });
@@ -41,15 +41,15 @@
     paginationClickable: true
   });
 
-  // $('.arrow-left').on('click', function(e){
-  //   e.preventDefault();
-  //   story_swiper.swipePrev();
-  // });
+  $('.story_arrow_left').on('click', function(e){
+    e.preventDefault();
+    story_swiper.swipePrev();
+  });
 
-  // $('.arrow-right').on('click', function(e){
-  //   e.preventDefault();
-  //   story_swiper.swipeNext();
-  // });
+  $('.story_arrow_right').on('click', function(e){
+    e.preventDefault();
+    story_swiper.swipeNext();
+  });
 
 
 

@@ -124,7 +124,7 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
   
  var mySwiper = new Swiper('.swiper-container', {
     pagination: '.pagination',
-    loop: true,
+    loop: false,
     grabCursor: true,
     paginationClickable: true
   });
@@ -146,15 +146,15 @@ u[o]&&(delete u[o],c?delete n[l]:typeof n.removeAttribute!==i?n.removeAttribute(
     paginationClickable: true
   });
 
-  // $('.arrow-left').on('click', function(e){
-  //   e.preventDefault();
-  //   story_swiper.swipePrev();
-  // });
+  $('.story_arrow_left').on('click', function(e){
+    e.preventDefault();
+    story_swiper.swipePrev();
+  });
 
-  // $('.arrow-right').on('click', function(e){
-  //   e.preventDefault();
-  //   story_swiper.swipeNext();
-  // });
+  $('.story_arrow_right').on('click', function(e){
+    e.preventDefault();
+    story_swiper.swipeNext();
+  });
 
 
 

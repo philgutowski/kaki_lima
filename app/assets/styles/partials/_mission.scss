@@ -4,7 +4,7 @@
 	background-attachment: fixed;
 	height: 900px;
 	width: 100%;
-	background-size: cover;
+	background-size: 600px auto;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	z-index: -1;
@@ -12,10 +12,10 @@
 }
 
 .mission_statement {
-	width: 80%;
+	width: 85%;
 	max-width: 360px;
-	margin: 225px auto 0 auto;
-	padding: 15px;
+	margin: 50% auto 0 auto;
+	padding: 25px;
 	text-align: center;
 	color: $white;
 	background-color: $black_trans;

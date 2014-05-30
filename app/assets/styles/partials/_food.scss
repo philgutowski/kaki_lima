@@ -41,16 +41,16 @@ overflow: hidden;
 }
 .swiper-pagination-switch {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 10px;
-  background: #999;
-  box-shadow: 0px 1px 2px #555 inset;
+  background: $white;
+  box-shadow: 0px 0px 10px $white inset;
   margin: 0 3px;
   cursor: pointer;
 }
 .swiper-active-switch {
-  background: #fff;
+  background: $kaki_red;
 }
 
 // Food Slides
@@ -91,7 +91,6 @@ overflow: hidden;
   background-color: $food_caption;
   text-align: center;
   h3 {
-    font-size: 1.55em;
     color: $white;
   }
   p {

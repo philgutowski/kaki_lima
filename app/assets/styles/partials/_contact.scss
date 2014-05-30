@@ -4,7 +4,8 @@
 	background-attachment: fixed;
 	height: 700px;
 	width: 100%;
-	background-size: cover;
+	background-size: 600px auto;
+	max-width: 600px;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	background-color: transparent;
@@ -20,7 +21,8 @@
 	margin: 200px auto;
 	p, a {
 		text-align: center;
-		font-size: 1.25em;
+		font-size: 1.15em;
+		line-height: 1em;
 		letter-spacing: .05em;
 		margin-bottom: 15px;
 	}

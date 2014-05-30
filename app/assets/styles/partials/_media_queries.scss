@@ -1,7 +1,7 @@
 // Tablet ===================================================================
 
 @include media($tablet) {
-	h3 {
+	.section_title {
 		font-size: 1.85em;
 	}
 	h4 {
@@ -72,12 +72,13 @@
 // Mission -----------------------------
 
 #mission {
-	background-image: url("/assets/images/tablet/mission_bg.png");
+	background-image: url("/assets/images/tablet/mission_bg.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	margin-top: 0px;
 	.mission_statement {
 		max-width: 700px;
+		margin-top: 225px;
 	}
 }
 
@@ -151,27 +152,31 @@
   background-image: url(/assets/images/tablet/food/food_6.jpg);
 }
 
+#contact {
+	max-width: none;
+	background-size: cover;
+}
+
 }
 
 // Screen ===================================================================
 
 @include media($screen) {
-
-h3 {
-	font-size: 1.95em;
-}
-h4 {
-	font-size: 1.7em;
-}
-p {
-	font-size: 1.6em;
-}
-
-nav {
-	margin-top: 5px;
-	ul {
-		padding-top: 12px;
+	.section_title {
+		font-size: 1.85em;
 	}
+
+	h4 {
+		font-size: 1.7em;
+	}
+	p {
+		font-size: 1.6em;
+	}
+	nav {
+		margin-top: 5px;
+		ul {
+			padding-top: 12px;
+		}
 }
 
 .home {
@@ -188,6 +193,9 @@ nav {
 	background-size: cover;
 	p {
 		line-height: 1.25em;
+	}
+	.mission_statement {
+		margin-top: 200px;
 	}
 }
 
@@ -287,6 +295,7 @@ nav {
 #services {
 	margin-top: 30px;
 	padding-top: 100px;
+	height: 650px;
 }
 
 .services_wrapper {
@@ -307,9 +316,11 @@ nav {
 // Contact -------------------------------------------------------------
 
 #contact {
+	max-width: none;
 	background-image: url(/assets/images/all/batik_screen_bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+
 
 }
 

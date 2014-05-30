@@ -12,28 +12,36 @@
 	z-index: 0;
 	background-color: $white;
 	overflow: hidden;
+
+}
+
+.swiper-slide {
+	position: relative;
 }
 
 .story_title .story_arrow_left {
-		height: 50px;
-		width: 50px;
+		height: 90px;
+		width: 90px;
 		background-image: url(/assets/images/all/left.svg);
 		background-size: contain;
 		background-repeat: no-repeat;
 		z-index: 1;
 		position: absolute;
-		margin: 120px 0 0 0;
+		margin: 90px 0 0 0;
+		cursor: pointer;
 
 }
 .story_title .story_arrow_right {
-		height: 50px;
-		width: 50px;
+		height: 90px;
+		width: 90px;
 		background-image: url(/assets/images/all/right.svg);
 		background-size: contain;
 		background-repeat: no-repeat;
 		z-index: 1;
 		position: absolute;
-		margin: 122px 0 0 22%;
+		margin: 90px 0 0 0;
+		right: 0;
+		cursor: pointer;
 }
 
 .story_title {
