@@ -490,7 +490,7 @@ nav {
   .food_caption_center {
     margin-top: 5%; }
   .swiper-slide {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
     float: left; }
