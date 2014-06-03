@@ -521,12 +521,14 @@ nav {
       padding-top: 12px; }
   .home {
     background-image: url(/assets/images/all/batik_screen_bg.jpg);
-    background-size: cover; }
+    background-size: cover;
+    background-attachment: fixed; }
     .home #logo_panel {
       margin-top: 300px; }
   #mission {
     background-image: url("/assets/images/all/mission_bg.jpg");
-    background-size: cover; }
+    background-size: cover;
+    background-attachment: fixed; }
     #mission p {
       line-height: 1.25em; }
     #mission .mission_statement {
