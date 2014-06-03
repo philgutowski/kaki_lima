@@ -49,7 +49,7 @@
 	.home {
 		height: 900px;
 		background-image: url(/assets/images/tablet/batik_tablet_bg.jpg);
-		background-size: cover;
+		background-size: 900px auto;
 		background-attachment: fixed;
 	}
 
@@ -74,7 +74,7 @@
 #mission {
 	background-image: url("/assets/images/tablet/mission_bg.jpg");
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: 900px auto;
 	margin-top: 0px;
 	.mission_statement {
 		max-width: 700px;
@@ -154,7 +154,7 @@
 
 #contact {
 	max-width: none;
-	background-size: cover;
+	background-size: 800px auto;
 }
 
 }
