@@ -1,327 +1,329 @@
 // Tablet ===================================================================
 
 @include media($tablet) {
-	.section_title {
-		font-size: 1.85em;
-	}
-	h4 {
-		font-size: 1.6em;
-	}
-	p {
-		font-size: 1.5em;
-	}
-		
+  .section_title {
+    font-size: 1.85em;
+  }
+  h4 {
+    font-size: 1.6em;
+  }
+  p {
+    font-size: 1.5em;
+  }
 
-// Nav ----------------------------
-	nav {
-		margin-top: 0px;
-		width: 100%;
-		height: 60px;
-		background-color: $white;
-		position: fixed;
-		left: 0;
-		ul {
-			width: 95%;
-			padding-top: 0;
-			margin: 5px auto;
-			text-align: center;
 
-			
-			li {
-				font-size: 1.5em;
-				display: inline;
-				padding: 5px;
-				a {
-					color: $kaki_red;
-				}
-				a:visited {
-						color: $kaki_red;
-				}
-			}
-		}
-		span {
-			display: none;
-		}
-	}
+  // Nav ----------------------------
+  nav {
+    margin-top: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: $white;
+    position: fixed;
+    left: 0;
+    ul {
+      width: 95%;
+      padding-top: 0;
+      margin: 5px auto;
+      text-align: center;
 
-// Home --------------------------------
 
-	.home {
-		height: 900px;
-		background-image: url(/assets/images/tablet/batik_tablet_bg.jpg);
-		background-size: 900px auto;
-		background-attachment: fixed;
-	}
+      li {
+        font-size: 1.5em;
+        display: inline;
+        padding: 5px;
+        a {
+          color: $kaki_red;
+        }
+        a:visited {
+          color: $kaki_red;
+        }
+      }
+    }
+    span {
+      display: none;
+    }
+  }
 
-	#logo_panel {
-		margin-top: 300px;
-		.icon-menu {
-			display: none;
-		}
-		#logo_cart {
-			height: 165px;
-		}
-		#logo_text {
-			height: 120px;
-		}
-		#tagline {
-			font-size: 1.55em;
-		}	
-	}
+  // Home --------------------------------
 
-// Mission -----------------------------
+  .home {
+    height: 900px;
+    background-image: url(/assets/images/tablet/batik_tablet_bg.jpg);
+    background-size: 900px auto;
+    background-attachment: fixed;
+  }
 
-#mission {
-	background-image: url("/assets/images/tablet/mission_bg.jpg");
-	background-size: cover;
-	background-attachment: 900px auto;
-	margin-top: 0px;
-	.mission_statement {
-		max-width: 700px;
-		margin-top: 225px;
-	}
-}
+  #logo_panel {
+    margin-top: 300px;
+    .icon-menu {
+      display: none;
+    }
+    #logo_cart {
+      height: 165px;
+    }
+    #logo_text {
+      height: 120px;
+    }
+    #tagline {
+      font-size: 1.55em;
+    }
+  }
 
-// Story -------------------------------
+  // Mission -----------------------------
 
-#story {
-	padding-top: 25px;
-	.swiper-wrapper {
-		
-	}
-	.story_content {
-		max-width: 700px;
-	}
+  #mission {
+    background-image: url("/assets/images/tablet/mission_bg.jpg");
+    background-size: cover;
+    background-attachment: 900px auto;
+    margin-top: 0px;
+    .mission_statement {
+      max-width: 700px;
+      margin-top: 225px;
+    }
+  }
 
-	.story_title .story_arrow_right {
-		margin-left: 23.25%;
-	}
+  // Story -------------------------------
 
-	// .story_pagination {
-	// 	margin-top: -100px;
-	// }
+  #story {
+    padding-top: 25px;
+    .swiper-wrapper {
 
-	// .story_bottom_image {
-	// 	background-image: url("/assets/images/tablet/story_bottom_1.jpg");
-	// 	height: 200px;
-	// 	background-size: 800px;
-	// }
-}
+    }
+    .story_content {
+      max-width: 700px;
+    }
 
-#story .story-swiper-container {
-	display: block;
-	height: 815px;
-	margin-bottom: 0px;
-}
+    .story_title .story_arrow_right {
+      margin-left: 23.25%;
+    }
 
-// Food --------------------------------
+    // .story_pagination {
+      // 	margin-top: -100px;
+    // }
 
-#food .swiper-container {
-	max-width: 1200px;
-	margin: 5% auto 0 auto;
-}
+    // .story_bottom_image {
+      // 	background-image: url("/assets/images/tablet/story_bottom_1.jpg");
+      // 	height: 200px;
+      // 	background-size: 800px;
+    // }
+  }
 
-.food_caption_center {
-	margin-top: 5%;	
-}
+  #story .story-swiper-container {
+    display: block;
+    height: 815px;
+    margin-bottom: 0px;
+  }
 
-.swiper-slide {
-	background-size: cover;
-	background-repeat: no-repeat;
-	overflow: hidden;
-	float: left;
-}
+  // Food --------------------------------
 
-// Food Slides
-#slide_1 {
-  background-image: url(/assets/images/tablet/food/food_1.jpg);
-}
-#slide_2 {
-  background-image: url(/assets/images/tablet/food/food_2.jpg);
-}
-#slide_3 {
-  background-image: url(/assets/images/tablet/food/food_3.jpg);
-}
-#slide_4 {
-  background-image: url(/assets/images/tablet/food/food_4.jpg);
-}
-#slide_5 {
-  background-image: url(/assets/images/tablet/food/food_5.jpg);
-}
-#slide_6 {
-  background-image: url(/assets/images/tablet/food/food_6.jpg);
-}
+  #food .swiper-container {
+    max-width: 1200px;
+    margin: 5% auto 0 auto;
+  }
 
-#contact {
-	max-width: none;
-	background-size: 800px auto;
-}
+  .food_caption_center {
+    margin-top: 5%;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    float: left;
+  }
+
+  // Food Slides
+  #slide_1 {
+    background-image: url(/assets/images/tablet/food/food_1.jpg);
+  }
+  #slide_2 {
+    background-image: url(/assets/images/tablet/food/food_2.jpg);
+  }
+  #slide_3 {
+    background-image: url(/assets/images/tablet/food/food_3.jpg);
+  }
+  #slide_4 {
+    background-image: url(/assets/images/tablet/food/food_4.jpg);
+  }
+  #slide_5 {
+    background-image: url(/assets/images/tablet/food/food_5.jpg);
+  }
+  #slide_6 {
+    background-image: url(/assets/images/tablet/food/food_6.jpg);
+  }
+
+  #contact {
+    max-width: none;
+    background-size: 800px auto;
+  }
 
 }
 
 // Screen ===================================================================
 
 @include media($screen) {
-	.section_title {
-		font-size: 1.85em;
-	}
+  .section_title {
+    font-size: 1.85em;
+  }
 
-	h4 {
-		font-size: 1.7em;
-	}
-	p {
-		font-size: 1.6em;
-	}
-	nav {
-		margin-top: 5px;
-		ul {
-			padding-top: 12px;
-		}
-}
+  h4 {
+    font-size: 1.7em;
+  }
+  p {
+    font-size: 1.6em;
+  }
+  nav {
+    margin-top: 5px;
+    ul {
+      padding-top: 12px;
+    }
+  }
 
-.home {
-	background-image: url(/assets/images/all/batik_screen_bg.jpg);
-	background-size: cover;
-	#logo_panel {
-		margin-top: 300px;
-	}
-}
-// Mission -----------------------------------------------------
+  .home {
+    background-image: url(/assets/images/all/batik_screen_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    #logo_panel {
+      margin-top: 300px;
+    }
+  }
+  // Mission -----------------------------------------------------
 
-#mission {
-	background-image: url("/assets/images/all/mission_bg.jpg");
-	background-size: cover;
-	p {
-		line-height: 1.25em;
-	}
-	.mission_statement {
-		margin-top: 200px;
-	}
-}
+  #mission {
+    background-image: url("/assets/images/all/mission_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    p {
+      line-height: 1.25em;
+    }
+    .mission_statement {
+      margin-top: 200px;
+    }
+  }
 
-// Story -------------------------------------------------------
+  // Story -------------------------------------------------------
 
-#story .story-swiper-container {
-	display: none;
-}
-.story_pagination {
-	display: none;
-}
+  #story .story-swiper-container {
+    display: none;
+  }
+  .story_pagination {
+    display: none;
+  }
 
-.screen_story_container, .screen_story_title {
-	@include outer-container;
-	display: block;
-	width: 90%;
-	margin: 70px auto 40px auto;
-	text-align: center;
+  .screen_story_container, .screen_story_title {
+    @include outer-container;
+    display: block;
+    width: 90%;
+    margin: 70px auto 40px auto;
+    text-align: center;
 
-	.story_title {
-		display: block;
-		.story_arrow_left {
-			display: none;
-		}
-		.story_title_right {
-			display: none;
-		}
-	}
-	.retno_story {
-		@include span-columns(6);
-		margin: 0;
-	}
-	.peter_story {
-		@include span-columns(6);
-		margin: 0;
-	}
-}
+    .story_title {
+      display: block;
+      .story_arrow_left {
+        display: none;
+      }
+      .story_title_right {
+        display: none;
+      }
+    }
+    .retno_story {
+      @include span-columns(6);
+      margin: 0;
+    }
+    .peter_story {
+      @include span-columns(6);
+      margin: 0;
+    }
+  }
 
-.story_circle_retno {
-	width: 190px;
-	height: 190px;
-}
-.story_circle_peter {
-	width: 190px;
-	height: 190px;
-}
-
-
-// Food ---------------------------------------------------------------
-
-#food {
-	height: 800px;
-	width: 100%;
-	background-image: url(/assets/images/all/batik_screen_bg.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-.food_caption_center {
-	margin-top: 25%;	
-}
-
-#food .swiper-container {
-  height: 800px;
-  margin-bottom: 80px;
-}
-
-.pagination {
-	bottom: 150px;
-}
-
-.swiper-slide {
-	background-size: cover;
-}
-
-#slide_1 {
-  background-image: url(/assets/images/all/food/food_1.jpg);
-}
-#slide_2 {
-  background-image: url(/assets/images/all/food/food_2.jpg);
-}
-#slide_3 {
-  background-image: url(/assets/images/all/food/food_3.jpg);
-}
-#slide_4 {
-  background-image: url(/assets/images/all/food/food_4.jpg);
-}
-#slide_5 {
-  background-image: url(/assets/images/all/food/food_5.jpg);
-}
-#slide_6 {
-  background-image: url(/assets/images/all/food/food_6.jpg);
-}
-
-// Services ------------------------------------------------------------
-
-#services {
-	margin-top: 30px;
-	padding-top: 100px;
-	height: 650px;
-}
-
-.services_wrapper {
-	margin: 50px 0 100px 0;
-	@include outer-container;
-}
-
-.catering {
-	@include span-columns(4);
-}
-.popup {
-	@include span-columns(4);
-}
-.restuarant {
-	@include span-columns(4);
-}
-
-// Contact -------------------------------------------------------------
-
-#contact {
-	max-width: none;
-	background-image: url(/assets/images/all/batik_screen_bg.jpg);
-	background-size: cover;
-	// background-attachment: fixed;
+  .story_circle_retno {
+    width: 190px;
+    height: 190px;
+  }
+  .story_circle_peter {
+    width: 190px;
+    height: 190px;
+  }
 
 
-}
+  // Food ---------------------------------------------------------------
+
+  #food {
+    height: 800px;
+    width: 100%;
+    background-image: url(/assets/images/all/batik_screen_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .food_caption_center {
+    margin-top: 25%;
+  }
+
+  #food .swiper-container {
+    height: 800px;
+    margin-bottom: 80px;
+  }
+
+  .pagination {
+    bottom: 150px;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+  }
+
+  #slide_1 {
+    background-image: url(/assets/images/all/food/food_1.jpg);
+  }
+  #slide_2 {
+    background-image: url(/assets/images/all/food/food_2.jpg);
+  }
+  #slide_3 {
+    background-image: url(/assets/images/all/food/food_3.jpg);
+  }
+  #slide_4 {
+    background-image: url(/assets/images/all/food/food_4.jpg);
+  }
+  #slide_5 {
+    background-image: url(/assets/images/all/food/food_5.jpg);
+  }
+  #slide_6 {
+    background-image: url(/assets/images/all/food/food_6.jpg);
+  }
+
+  // Services ------------------------------------------------------------
+
+  #services {
+    margin-top: 30px;
+    padding-top: 100px;
+    height: 650px;
+  }
+
+  .services_wrapper {
+    margin: 50px 0 100px 0;
+    @include outer-container;
+  }
+
+  .catering {
+    @include span-columns(4);
+  }
+  .popup {
+    @include span-columns(4);
+  }
+  .restuarant {
+    @include span-columns(4);
+  }
+
+  // Contact -------------------------------------------------------------
+
+  #contact {
+    max-width: none;
+    background-image: url(/assets/images/all/batik_screen_bg.jpg);
+    background-size: cover;
+    // background-attachment: fixed;
+
+
+  }
 
 }
